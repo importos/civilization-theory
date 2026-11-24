@@ -1,0 +1,38 @@
+name: پیشنهاد مفهوم
+description: پیشنهاد تعریف یا بازنگری یک مفهوم در نظریه تمدن
+title: "[Concept] "
+labels: ["concept", "proposed"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: مسئله یا نیاز
+      description: چه مسئله‌ای باعث نیاز به این مفهوم شده است؟
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: تعریف پیشنهادی
+      description: تعریف کوتاه و دقیق مفهوم چیست؟
+    validations:
+      required: true
+  - type: textarea
+    id: relations
+    attributes:
+      label: ارتباط با مفاهیم دیگر
+      description: این مفهوم به چه مفاهیمی وابسته است یا بر آن‌ها اثر می‌گذارد؟
+    validations:
+      required: false
+  - type: textarea
+    id: examples
+    attributes:
+      label: مثال‌ها و مثال نقض
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: استدلال و منابع
+    validations:
+      required: false

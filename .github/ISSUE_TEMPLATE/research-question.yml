@@ -1,0 +1,31 @@
+name: پرسش پژوهشی
+description: ثبت پرسش یا ابهام برای بررسی نظری
+title: "[Research] "
+labels: ["research", "question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: پرسش
+      description: پرسش دقیق چیست؟
+    validations:
+      required: true
+  - type: textarea
+    id: importance
+    attributes:
+      label: اهمیت پرسش
+      description: پاسخ به این پرسش چه کمکی به نظریه می‌کند؟
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: زمینه و مفاهیم مرتبط
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: منابع یا مسیرهای احتمالی بررسی
+    validations:
+      required: false
